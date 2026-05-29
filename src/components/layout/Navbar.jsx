@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { Menu, X } from "lucide-react"
 import Container from "../ui/Container"
-import Button from "../ui/Button"
+import Button from "../ui/button"
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)

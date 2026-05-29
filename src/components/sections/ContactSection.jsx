@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import Container from "../ui/Container"
-import Button from "../ui/Button"
+import Button from "../ui/button"
 
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 32 },
